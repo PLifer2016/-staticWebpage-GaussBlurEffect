@@ -1,6 +1,7 @@
 #main
 {
 	width: 1349px;
+	margin: 0 auto;
 }
 
 .blank
@@ -18,6 +19,7 @@ h1
 
 .pic01
 {
+	position: relative;
 	width: 1349px;
 	height:641px;
 	background-image: url(../img/01.png);
@@ -39,7 +41,7 @@ h1
 .contain
 {
 	position:absolute;
-	top:610px;
+	top:160px;
 	left: 610px;
 }
 
@@ -134,9 +136,8 @@ h1
 
 .blur-box-03
 {
-	position: absolute;
-	top: 2793px;
-	left: 382px;
+	position: relative;
+	top: -478px;
 	width: 600px;
 	height: 300px;
 	margin: 0 auto;
